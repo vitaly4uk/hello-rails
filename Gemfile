@@ -8,12 +8,14 @@ gem 'rails', '4.1.1'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
+  gem 'guard-rspec'
 end
 
 group :test do
   gem 'minitest'
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'libnotify'
 end
 
 # Use SCSS for stylesheets
